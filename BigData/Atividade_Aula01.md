@@ -280,34 +280,25 @@ Complete o fluxo abaixo:
 │                     │
 └─────────────────────┘
 
-# 14. Mapa do Problema de Ciência de Dados
-
 ### Resuma cada etapa
 
 **Problema:**
-
-Clientes parando de comprar na loja online sem aviso.
+> Clientes parando de comprar na loja online sem aviso.
 
 **Dados:**
-
-Datas de compra, histórico de reclamações, valores e acessos ao site.
+> Datas de compra, histórico de reclamações, valores e acessos ao site.
 
 **Informação:**
-
-Quem são os clientes em risco de sumir e o motivo da insatisfação.
+> Quem são os clientes em risco de sumir e o motivo da insatisfação.
 
 **Análise:**
-
-Separação dos clientes em grupos por frequência e valor gasto.
+> Separação dos clientes em grupos por frequência e valor gasto.
 
 **Decisão:**
-
-Envio de cupons e contato com clientes antes que eles desistam.
+> Envio de cupons e contato com clientes antes que eles desistam.
 
 **Benefício:**
-
-Aumento nas vendas e retenção dos clientes antigos.
-
+> Aumento nas vendas e retenção dos clientes antigos.
 
 ---
 
@@ -315,30 +306,25 @@ Aumento nas vendas e retenção dos clientes antigos.
 
 A equipe terá **2 minutos** para apresentar sua proposta.
 
-### 1. Nosso problema
+Organizem a apresentação seguindo esta estrutura:
 
-A loja online está perdendo clientes antigos sem saber o motivo.
+### 1. Nosso problema
+> A loja online está perdendo clientes antigos sem saber o motivo.
 
 ### 2. Precisamos destes dados
-
-Histórico de compras, valor gasto, datas do último pedido e reclamações.
+> Histórico de compras, valor gasto, datas do último pedido e reclamações.
 
 ### 3. Queremos descobrir
-
-Quais clientes estão prestes a sumir e o que causou a insatisfação.
+> Quais clientes estão prestes a sumir e o que causou a insatisfação.
 
 ### 4. Pretendemos analisar
-
-Agrupando os clientes por comportamento para achar padrões de desistência.
+> Agrupando os clientes por comportamento para achar padrões de desistência.
 
 ### 5. A decisão poderia ser
-
-Criar promoções para quem está sumindo e resolver problemas com suporte.
+> Criar promoções para quem está sumindo e resolver problemas com suporte.
 
 ### 6. O benefício esperado é
-
-Manter as vendas em dia e gastar menos para trazer novos clientes.
-
+> Manter as vendas em dia e gastar menos para trazer novos clientes.
 
 ---
 
@@ -359,29 +345,28 @@ Antes de entregar, confira:
 - [x] Preenchemos o Mapa do Problema.
 - [x] Estamos preparados para apresentar em 2 minutos.
 
-
 ---
 
 # 17. Reflexão final
 
-### Ter muitos dados significa necessariamente tomar boas decisões? Por quê?
+Responda individualmente ou em equipe:
+
+> **Ter muitos dados significa necessariamente tomar boas decisões? Por quê?**
 
 **Resposta:**
-
-Não. Ter acumulado uma grande quantidade de dados sem saber o que procurar ou sem organizar as informações não resolve nada. Os dados só ajudam quando a gente sabe qual pergunta quer responder e usa isso para tomar uma atitude prática.
-
+> Não. Ter acumulado uma grande quantidade de dados sem saber o que procurar ou sem organizar as informações não resolve nada. Os dados só ajudam quando a gente sabe qual pergunta quer responder e usa isso para tomar uma atitude prática.
 
 ---
 
-# Entrega
+## Entrega
 
-## Produto final
+### Produto final
 
 A equipe deverá entregar:
 
 **Mapa do Problema de Ciência de Dados**
 
-Contendo:
+contendo:
 
 ```text
 Problema
@@ -393,7 +378,5 @@ Informações desejadas
 Análise
    ↓
 Decisão
-   ↓
-Benefício esperado
    ↓
 Benefício esperado
