@@ -11,16 +11,16 @@
 
 ## 1. Identificação da equipe
 
-| Campo             | Resposta |
+| Campo               | Resposta |
 | ----------------- | -------- |
 | **Turma:**        | Sistemas de Informação         |
 | **Data:**         |  19/08        |
-| **Equipe:**       |          |
-| **Integrante 1:** |          |
-| **Integrante 2:** |          |
-| **Integrante 3:** |          |
-| **Integrante 4:** |          |
-| **Integrante 5:** |          |
+| **Equipe:**       |  Sintike Barreira        |
+| **Integrante 1:** |  Sintike Barreira da Silva        |
+| **Integrante 2:** |  -        |
+| **Integrante 3:** |  -        |
+| **Integrante 4:** |  -        |
+| **Integrante 5:** |  -        |
 
 ---
 
@@ -40,7 +40,7 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 Escolha uma área para investigar:
 
-* [ ] Comércio
+* [x] Comércio
 * [ ] Banco
 * [ ] Saúde
 * [ ] Transporte
@@ -57,11 +57,8 @@ Escolha uma área para investigar:
 
 > Escreva aqui:
 >
-> ---
+> Clientes antigos de uma loja online estão parando de comprar de uma hora para outra. A empresa nota a queda nas vendas, mas não sabe o motivo nem quem é o próximo cliente que vai parar de comprar.
 >
-> ---
->
-> ---
 
 ---
 
@@ -71,15 +68,11 @@ Identifique a organização, grupo ou público afetado pelo problema.
 
 **Quem possui ou enfrenta esse problema?**
 
-> ---
->
-> ---
+> Os donos da loja, o setor de vendas e a equipe de marketing.
 
 ### Quem é afetado pelo problema?
 
-> ---
->
-> ---
+> A empresa, que perde faturamento, e os próprios clientes, que saem insatisfeitos sem que a loja tente resolver o problema.
 
 ---
 
@@ -89,11 +82,7 @@ Explique por que vale a pena investigar esse problema utilizando dados.
 
 **Qual é o impacto do problema?**
 
-> ---
->
-> ---
->
-> ---
+> Manter um cliente antigo é muito mais barato do que gastar dinheiro com propaganda para trazer um novo. Quando o cliente vai embora, a loja perde renda garantida e gasta mais tentando repor.
 
 ---
 
@@ -103,11 +92,7 @@ Imagine que sua equipe foi contratada para ajudar uma organização.
 
 **Qual decisão a organização precisa tomar?**
 
-> ---
->
-> ---
->
-> ---
+> Decidir quais clientes precisam receber um desconto, frete grátis ou contato do suporte para evitar que abandonem a loja.
 
 ---
 
@@ -121,11 +106,11 @@ Liste pelo menos **5 dados**.
 
 | Nº | Dado necessário | Por que esse dado é importante? |
 | -: | --------------- | ------------------------------- |
-|  1 |                 |                                 |
-|  2 |                 |                                 |
-|  3 |                 |                                 |
-|  4 |                 |                                 |
-|  5 |                 |                                 |
+|  1 | Data da última compra | Para ver há quantos dias a pessoa não entra ou compra na loja. |
+|  2 | Frequência de compras | Para saber quantas vezes por mês o cliente costumava comprar. |
+|  3 | Valor gasto nas compras | Para identificar os clientes que mais trazem dinheiro para a loja. |
+|  4 | Avaliações e reclamações | Para saber se o cliente teve problemas com entrega ou produto ruim. |
+|  5 | Produtos no carrinho abandonado | Para ver se a pessoa desistiu de comprar no meio do caminho. |
 
 ### Exemplos
 
@@ -155,19 +140,19 @@ Os dados, quando analisados, podem gerar informações úteis.
 
 ### Pergunta 1
 
-> ---
+> Quanto tempo um cliente normal demora para fazer uma nova compra antes de sumir de vez?
 
 ### Pergunta 2
 
-> ---
+> Qual o motivo mais comum nas reclamações dos clientes que pararam de comprar?
 
 ### Pergunta 3
 
-> ---
+> Quais clientes não compram há mais de 30 dias mas antes compravam todo mês?
 
 ### Pergunta 4
 
-> ---
+> O atraso na entrega faz o cliente desistir da loja na compra seguinte?
 
 ---
 
@@ -177,22 +162,18 @@ Pense como um cientista de dados.
 
 Sua equipe poderia procurar:
 
-* [ ] Tendências
-* [ ] Comparações
-* [ ] Grupos semelhantes
-* [ ] Comportamentos recorrentes
+* [x] Tendências
+* [x] Comparações
+* [x] Grupos semelhantes
+* [x] Comportamentos recorrentes
 * [ ] Valores fora do padrão
-* [ ] Relações entre variáveis
+* [x] Relações entre variáveis
 * [ ] Mudanças ao longo do tempo
 * [ ] Outros: __________________________
 
 ### Explique um padrão que vocês gostariam de encontrar
 
-> ---
->
-> ---
->
-> ---
+> A relação entre o atraso na entrega e o sumiço do cliente (exemplo: clientes que tiveram entregas atrasadas duas vezes seguidas costumam nunca mais voltar).
 
 ---
 
@@ -202,21 +183,19 @@ Como os dados poderiam ser analisados?
 
 Marque uma ou mais possibilidades:
 
-* [ ] Análise descritiva
-* [ ] Comparação entre grupos
+* [x] Análise descritiva
+* [x] Comparação entre grupos
 * [ ] Análise temporal
-* [ ] Visualização por gráficos
-* [ ] Identificação de padrões
-* [ ] Classificação
+* [x] Visualização por gráficos
+* [x] Identificação de padrões
+* [x] Classificação
 * [ ] Previsão
-* [ ] Agrupamento
+* [x] Agrupamento
 * [ ] Outra: __________________________
 
 ### Explique
 
-> ---
->
-> ---
+> Separar os clientes em grupos (os que compram sempre, os que compram pouco e os que sumiram) para ver a diferença de comportamento entre eles.
 
 ---
 
@@ -226,11 +205,7 @@ Depois de analisar os dados, imagine que sua equipe encontrou informações impo
 
 **Que decisão poderia ser tomada com base nos resultados?**
 
-> ---
->
-> ---
->
-> ---
+> Mandar e-mails automáticos com cupom de desconto para quem não compra há mais de 20 dias, e pedir para o suporte ligar para quem teve entrega atrasada.
 
 ---
 
@@ -238,11 +213,7 @@ Depois de analisar os dados, imagine que sua equipe encontrou informações impo
 
 Qual seria o possível benefício da decisão para a organização ou para as pessoas envolvidas?
 
-> ---
->
-> ---
->
-> ---
+> A loja recupera vendas que seriam perdidas, melhora o atendimento e economiza dinheiro em anúncios.
 
 ---
 
@@ -250,23 +221,21 @@ Qual seria o possível benefício da decisão para a organização ou para as pe
 
 Analise o problema escolhido pela equipe.
 
-| V              | Pergunta                                                   | Resposta da equipe |
+| V               | Pergunta                                                   | Resposta da equipe |
 | -------------- | ---------------------------------------------------------- | ------------------ |
-| **Volume**     | Existe uma grande quantidade de dados?                     |                    |
-| **Velocidade** | Os dados são gerados ou processados rapidamente?           |                    |
-| **Variedade**  | Existem diferentes tipos ou formatos de dados?             |                    |
-| **Veracidade** | Os dados podem apresentar erros ou problemas de qualidade? |                    |
-| **Valor**      | Os dados podem gerar algum benefício ou apoiar decisões?   |                    |
+| **Volume**     | Existe uma grande quantidade de dados?                     | Sim, muitos registros de vendas e acessos ao site todo dia. |
+| **Velocidade** | Os dados são gerados ou processados rapidamente?           | Sim, cada clique e compra no site acontece na hora. |
+| **Variedade**  | Existem diferentes tipos ou formatos de dados?             | Sim, temos tabelas de vendas, textos de reclamação e notas de feedback. |
+| **Veracidade** | Os dados podem apresentar erros ou problemas de qualidade? | Sim, cadastros antigos ou e-mails errados que precisam ser limpos. |
+| **Valor**      | Os dados podem gerar algum benefício ou apoiar decisões?   | Sim, ajudam a não perder faturamento ao manter os clientes comprando. |
 
 ### Qual dos 5 Vs é mais relevante para o problema?
 
-> ---
+> Valor
 
 ### Justifique
 
-> ---
->
-> ---
+> De nada adianta guardar milhares de dados se a loja não usar isso para tomar uma atitude e evitar perder dinheiro.
 
 ---
 
@@ -276,7 +245,7 @@ Complete o fluxo abaixo:
 
 ```text
 ┌─────────────────────┐
-│       PROBLEMA      │
+│        PROBLEMA     │
 │                     │
 │                     │
 └──────────┬──────────┘
@@ -294,13 +263,13 @@ Complete o fluxo abaixo:
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
-│       ANÁLISE       │
+│        ANÁLISE      │
 │                     │
 │                     │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
-│       DECISÃO       │
+│        DECISÃO      │
 │                     │
 │                     │
 └──────────┬──────────┘
@@ -310,116 +279,99 @@ Complete o fluxo abaixo:
 │                     │
 │                     │
 └─────────────────────┘
-```
 
-### Resuma cada etapa
+Resuma cada etapa
+Problema:
 
-**Problema:**
+Clientes parando de comprar na loja online sem aviso.
 
->
+Dados:
 
-**Dados:**
+Datas de compra, histórico de reclamações, valores e acessos ao site.
 
->
+Informação:
 
-**Informação:**
+Quem são os clientes em risco de sumir e o motivo da insatisfação.
 
->
+Análise:
 
-**Análise:**
+Separação dos clientes em grupos por frequência e valor gasto.
 
->
+Decisão:
 
-**Decisão:**
+Envio de cupons e contato com clientes antes que eles desistam.
 
->
+Benefício:
 
-**Benefício:**
+Aumento nas vendas e retenção dos clientes antigos.
 
->
-
----
-
-# 15. Preparação para apresentação
-
-A equipe terá **2 minutos** para apresentar sua proposta.
+15. Preparação para apresentação
+A equipe terá 2 minutos para apresentar sua proposta.
 
 Organizem a apresentação seguindo esta estrutura:
 
-### 1. Nosso problema
+1. Nosso problema
+A loja online está perdendo clientes antigos sem saber o motivo.
 
-> ---
+2. Precisamos destes dados
+Histórico de compras, valor gasto, datas do último pedido e reclamações.
 
-### 2. Precisamos destes dados
+3. Queremos descobrir
+Quais clientes estão prestes a sumir e o que causou a insatisfação.
 
-> ---
+4. Pretendemos analisar
+Agrupando os clientes por comportamento para achar padrões de desistência.
 
-### 3. Queremos descobrir
+5. A decisão poderia ser
+Criar promoções para quem está sumindo e resolver problemas com suporte.
 
-> ---
+6. O benefício esperado é
+Manter as vendas em dia e gastar menos para trazer novos clientes.
 
-### 4. Pretendemos analisar
-
-> ---
-
-### 5. A decisão poderia ser
-
-> ---
-
-### 6. O benefício esperado é
-
-> ---
-
----
-
-# 16. Checklist da equipe
-
+16. Checklist da equipe
 Antes de entregar, confira:
 
-* [ ] Definimos um problema real.
-* [ ] Identificamos quem é afetado pelo problema.
-* [ ] Explicamos por que o problema é importante.
-* [ ] Identificamos pelo menos 5 dados necessários.
-* [ ] Definimos perguntas que queremos responder.
-* [ ] Identificamos possíveis padrões.
-* [ ] Indicamos como os dados poderiam ser analisados.
-* [ ] Definimos uma possível decisão.
-* [ ] Identificamos o benefício esperado.
-* [ ] Analisamos os 5 Vs do Big Data.
-* [ ] Preenchemos o Mapa do Problema.
-* [ ] Estamos preparados para apresentar em 2 minutos.
+[x] Definimos um problema real.
 
----
+[x] Identificamos quem é afetado pelo problema.
 
-# 17. Reflexão final
+[x] Explicamos por que o problema é importante.
 
+[x] Identificamos pelo menos 5 dados necessários.
+
+[x] Definimos perguntas que queremos responder.
+
+[x] Identificamos possíveis padrões.
+
+[x] Indicamos como os dados poderiam ser analisados.
+
+[x] Definimos uma possível decisão.
+
+[x] Identificamos o benefício esperado.
+
+[x] Analisamos os 5 Vs do Big Data.
+
+[x] Preenchemos o Mapa do Problema.
+
+[x] Estamos preparados para apresentar em 2 minutos.
+
+17. Reflexão final
 Responda individualmente ou em equipe:
 
-> **Ter muitos dados significa necessariamente tomar boas decisões? Por quê?**
+Ter muitos dados significa necessariamente tomar boas decisões? Por quê?
 
-**Resposta:**
+Resposta:
 
-> ---
->
-> ---
->
-> ---
->
-> ---
+Não. Ter acumulado uma grande quantidade de dados sem saber o que procurar ou sem organizar as informações não resolve nada. Os dados só ajudam quando a gente sabe qual pergunta quer responder e usa isso para tomar uma atitude prática.
 
----
-
-## Entrega
-
-### Produto final
-
+Entrega
+Produto final
 A equipe deverá entregar:
 
-**Mapa do Problema de Ciência de Dados**
+Mapa do Problema de Ciência de Dados
 
 contendo:
 
-```text
 Problema
    ↓
 Dados necessários
@@ -431,8 +383,3 @@ Análise
 Decisão
    ↓
 Benefício esperado
-```
-
-**Formato sugerido:** Markdown, PDF ou documento disponibilizado pelo professor.
-
-**Apresentação:** 2 minutos por equipe.
